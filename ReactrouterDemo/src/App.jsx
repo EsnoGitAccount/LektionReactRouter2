@@ -8,7 +8,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename="/LektionReactRouter2/">
       <NavBar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
